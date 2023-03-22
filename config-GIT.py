@@ -49,8 +49,11 @@ git config --global -e #muestra el archivo de texto de los comandos
 #estan los archivos definitivos que se desean cargar, agregar, editar o eliminar en el 
 #repositorio que posteriormente iran al servidor o la nube.
 
-        git commit -m "mensaje de commit" #agrega a la etapa de commit los archivos o
-                                          #cambios que estaba en stage
+        git commit -m "mensaje de commit" #agrega a la etapa de commit los cambios o los
+                                          #archivos. -m para escribir el comentario del 
+                                          #comit                       
+        git comit #abre el editor de texto predeterminado para git para editar el 
+                                          #nombre del nuevo comit
 
         SERVER
 

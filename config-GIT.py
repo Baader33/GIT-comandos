@@ -1,4 +1,6 @@
 
+        CURSO COMPLETO EN https://www.youtube.com/watch?v=VdGzPZ31ts8&t=635s        
+
         COMANDOS PREVIOS DE CONFIGURACIÓN DE GIT
 
 git --version #Visualización de la versión instalada

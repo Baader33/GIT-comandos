@@ -43,6 +43,18 @@ git config --global -e #muestra el archivo de texto de los comandos
 #comando git status y son los mismos que estén en la carpeta del reposiorio local
 
         git rm --cached archivo.ext #para sacar del área de stage
+        mv a.ext b.ext              #cambia de nombre del archivo sin agregar al stage 
+                                    #el cambio
+        git mv a.ext b.ext          #Realiza el cambio de nombre y agrega (add) a stage
+
+        gitignore
+
+#En el caso de no querer hacer commits a ciertos archivos presentes en el repositorio local
+#será necesario crear un archivo .gitignore
+        
+#Se crea el archivo .gitignore y se agregan los archivos o las direcciones de carpetas
+
+
 
         COMMIT
 
@@ -56,6 +68,19 @@ git config --global -e #muestra el archivo de texto de los comandos
                                           #comit                       
         git comit #abre el editor de texto predeterminado para git para editar el 
                                           #nombre del nuevo comit
+        git log   #muestra los commits realizados, fecha y datos del autor que los realizó
+        git log --oneline #muestra el registro de cada commit con un respectivo hash
+
+RAMAS-BRANCH
+
+#Son líneas de evolución que registran y marcan los diferentes commits o cambios en un processo, como un historial. 
+
+        git branch #muesstra la rama actual en uso
+        git checkout -b name-brach #crea una nueva rama llamda name-branch si no existe.
+        git checkout name-branch #se cambia a la rama name-branch
+        cat archivo.ext #muestra el contenido del archivo en texto planio
+        git merge rama-anterior #si se desea traer archivos o modificaciones a la rama actual                                #será necesario usar merge y trae los cambios o archivos
+                                # de rama-anterior
 
         SERVER
 

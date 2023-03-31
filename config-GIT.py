@@ -87,8 +87,7 @@ RAMAS-BRANCH
         git checkout -b name-brach #crea una nueva rama llamda name-branch si no existe.
         git checkout name-branch #se cambia a la rama name-branch
         cat archivo.ext #muestra el contenido del archivo en texto planio
-        git merge rama-anterior #si se desea traer archivos o modificaciones a la rama actual                                #será necesario usar merge y trae los cambios o archivos
-                                # de rama-anterior
+        git merge rama-anterior #si se desea traer archivos o modificaciones a la rama actual                                #será necesario usar merge y traos cambios o archivos de rama-anterior
 
         SERVER
 

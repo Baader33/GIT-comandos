@@ -23,6 +23,14 @@ git config --global -e #muestra el archivo de texto de los comandos
 
         PC---------->stage------------->commit------------>server
 
+        ETAPA PREVIA DE INICIALIZACIÓN
+
+#Es necesario realizar el proceso de inicialización de git sobre el directorio en el que deseamos trabajar
+
+        git init #Inicializa un repositorio vacío en el directorio local actual.
+                 #Inmediatamente crea un subdirectorio oculto .git
+        ls -a #Comando bash que muestra el listado de elementos en el directorio              #incluyendo los ocultos.
+
         STAGE
 
 #Si se desean agregar, editar o eliminar archivos a un repositorio, será necesario

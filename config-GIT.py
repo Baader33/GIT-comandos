@@ -95,4 +95,17 @@ RAMAS-BRANCH
 #Se emplean comandos como git push que carga contenido de un repositorio local a uno 
 #remoto
 
+        git remote add origin URL
+        #Se crea el vínculo entre el repositorio local con su copia en la nube
+        #URL es el link del repositorio remoto o en la nube
+
+        git push -u origin master
+        #Carga  los cambios y commits realizados localmente para ser
+        #confirmados  en el repositorio en la nube. master es el nombre de
+        #la rama local que ha sido relacionado con la rama origin
+
+        
+
+
+
 
